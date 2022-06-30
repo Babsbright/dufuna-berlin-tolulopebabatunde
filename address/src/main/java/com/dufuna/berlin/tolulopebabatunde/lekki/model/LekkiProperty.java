@@ -138,8 +138,8 @@ public class LekkiProperty {
 
     @Override
     public String toString(){
-        return "[Property id:" + propertyId +", Property Address:" + propertyAddress +
-                ", Property Type" + propertyType +"]";
+        return "[Properties: Property id:" + propertyId +", Property Address:" + propertyAddress +
+                ", Property Type:" + propertyType +"]";
     }
 
     @Override
@@ -149,7 +149,7 @@ public class LekkiProperty {
 
     @Override
     public boolean equals(Object obj) {
-        LekkiProperty tol = (LekkiProperty) obj ;
-        return this.getPropertyId() == tol.getPropertyId();
+        LekkiProperty prop = (LekkiProperty) obj ;
+        return this.getPropertyId() == prop.getPropertyId();
     }
 }
