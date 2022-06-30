@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="address:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/address_jar</output-path>
+    <root id="archive" name="address.jar">
+      <element id="module-output" name="address" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.21/spring-expression-5.3.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.21/spring-beans-5.3.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.21/spring-jcl-5.3.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.21/spring-context-5.3.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.21/spring-aop-5.3.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.21/spring-core-5.3.21.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
