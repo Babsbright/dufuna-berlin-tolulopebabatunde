@@ -17,9 +17,6 @@ public class LekkiProperty {
     private String validForm;
     private String validTo;
 
-    public LekkiProperty(){
-
-    }
 
 //           METHOD
     public LekkiProperty(int propertyId, String propertyAddress, String propertyType){
