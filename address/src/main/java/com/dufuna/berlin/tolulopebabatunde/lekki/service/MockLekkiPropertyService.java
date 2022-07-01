@@ -8,8 +8,11 @@ import java.util.ArrayList;
 
 public class MockLekkiPropertyService implements LekkiPropertyService{
 
-     SimpleLekkiPropertyRepositoryImpl propertyRepo = new SimpleLekkiPropertyRepositoryImpl(); @Override
+     SimpleLekkiPropertyRepositoryImpl propertyRepo = new SimpleLekkiPropertyRepositoryImpl();
+     @Override
     public LekkiProperty saveProperty(LekkiProperty lekkiProperty) {
+         //Class Name and Method called to the console
+
         System.out.println(this.getClass().getSimpleName() + "." + "saveProperty" + " called");
         return propertyRepo.save(lekkiProperty);
     }

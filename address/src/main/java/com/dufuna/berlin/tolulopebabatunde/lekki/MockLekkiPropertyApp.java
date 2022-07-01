@@ -7,16 +7,16 @@ import com.dufuna.berlin.tolulopebabatunde.lekki.service.MockLekkiPropertyServic
 public class MockLekkiPropertyApp {
     public static void main(String[] args) {
 
-        LekkiPropertyService service = new MockLekkiPropertyService();
+        LekkiPropertyService newProperty = new MockLekkiPropertyService();
         String[] type = {"Flat", "Duplex", "Bungalow", "Semi-detached" };
         String[] address = {"Saint ford", "Fitzgerald avenue", "Lancelot close", "Palmview estate"};
                 for(int i = 0; i < address.length; i++){
                     LekkiProperty prop = new LekkiProperty(i, address[i], type[i]);
-                    service.saveProperty(prop);
-                    System.out.println(service.getProperty(i));
+                    newProperty.saveProperty(prop);
+                    System.out.println(newProperty.getProperty(i));
 
                 }
-                System.out.println(service.getProperties());
+                System.out.println(newProperty.getProperties());
 
     }
 
